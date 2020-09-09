@@ -14,7 +14,7 @@ in
 stdenv.mkDerivation {
   system = builtins.currentSystem;
   buildInputs = buildInputs;
-  name = "sxiv";
+  name = "sxiv-gallo";
   src = ./.;
   makeFlags = [ "CC:=$(CC)" ];
   preConfigure = ''
